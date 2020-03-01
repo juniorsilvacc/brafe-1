@@ -51,6 +51,15 @@ a.menu-logo{
     font-size: 1.125em;
 }
 
+/* Responibilidade */
+
+@media (max-width : 739px){
+    .menu-nav{
+        float: none;
+        clear: both;
+    }
+}
+
 /* Intro */
 
 .intro{
@@ -78,6 +87,23 @@ a.menu-logo{
 .intro p{
     font-style: italic;
     font-size: 1.125em;
+}
+
+/* Responibilidade */
+
+@media (max-width : 739px){
+    .menu{
+        text-align: center;    
+    }
+    
+    a.menu-logo{
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .intro{
+        padding: 60px 0;
+    }
 }
 
 /* Sobre */
@@ -135,6 +161,27 @@ a.menu-logo{
     text-align: center;
     margin: 20px auto;
     max-width: 460px;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+	.sobre-container {
+		max-width: 720px;
+	}
+	.sobre-item {
+		width: 340px;
+	}
+}
+
+/* Responibilidade */
+
+@media (max-width: 739px) {
+	.sobre-container {
+		max-width: 300px;
+	}
+	.sobre-item {
+		width: 300px;
+		margin: 0 auto;
+	}
 }
 
 /* Produtos */
@@ -214,6 +261,26 @@ h2.produtos-mineiro::before{
     margin: 20px auto 0 auto;
 }
 
+/* Responibilidade */
+
+@media (min-width: 740px) and (max-width: 980px) {
+	.produtos-container {
+		max-width: 720px;
+	}
+	.produtos-item {
+		width: 220px;
+	}
+}
+
+@media (max-width: 739px) {
+	.produtos-container {
+		max-width: 300px;
+	}
+	.produtos-item {
+		margin: 0 auto 20px auto;
+	}
+}
+
 /* Locais */
 
 .locais{
@@ -266,6 +333,27 @@ h2.produtos-mineiro::before{
     border: 3px solid;
     color: #252525;
     padding: 10px 20px;
+}
+
+/* Responibilidade */
+
+@media (min-width: 740px) and (max-width: 980px) {
+    .locais{
+        max-width: 7200px;
+    }
+    .locais-item > div, .locais-item img{
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px) {
+    .locais{
+        max-width: 300px;
+    }
+	.locais-item > div, .locais-item img{
+        width: 300px;
+        margin: 0px;
+    }
 }
 
 /* Newsletter */
@@ -335,6 +423,29 @@ h2.produtos-mineiro::before{
     cursor: pointer;
 }
 
+/* Responibilidade */
+
+@media (min-width: 740px) and (max-width: 980px) {
+    .assine-container{
+        max-width: 720px;
+    }
+    .assine-info, .assine form, .assine input{
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px) {
+    .assine-container{
+        max-width: 300px;
+    }
+    .assine-info, .assine form, .assine input{
+        width: 300px;
+        margin: 10x 0 0 0;
+    }
+}
+
+/* Footer */
+
 .footer{
     background: #d6d3c8;
     padding: 40px 0;
@@ -364,6 +475,23 @@ h2.produtos-mineiro::before{
     display: block;
 }
 
+/* Responibilidade */
+
+@media (min-width: 740px) and (max-width: 980px) {
+    .footer-container{
+        max-width: 300px;
+    }
+    
+    .footer P{
+        float: none;
+        margin: 0px;
+    }
+    
+    .footer img{
+        float: none;
+        margin-top: 10px 0;
+    }
+}
 
 
 
